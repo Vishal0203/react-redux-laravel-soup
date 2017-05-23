@@ -1,0 +1,3 @@
+/*
+  Selectors to be used in redux saga
+*/

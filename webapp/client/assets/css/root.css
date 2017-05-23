@@ -1,0 +1,30 @@
+/*
+Your styles for the application go here
+import other css files into this root.css
+*/
+
+@import "lib/animate.css";
+
+:root {
+    --brand-color: #873260;
+}
+
+body {
+    margin: 0;
+    background: #fafafb;
+}
+
+.navbar {
+    position: fixed !important;
+    padding: 0 40px 0 40px !important;
+    top: 0;
+}
+
+.navbar-highlight {
+    background-color: var(--brand-color);
+    height: 3px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10001
+}
